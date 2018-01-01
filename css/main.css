@@ -1,0 +1,10 @@
+.principalSection {
+    /* morado #530060 */
+    height: 100vh;
+    background: linear-gradient(to bottom right, #530060,#E7098A ); 
+    background-repeat: no-repeat;
+}
+img {
+    width: 50%;
+    height: auto;
+}
