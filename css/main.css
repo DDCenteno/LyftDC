@@ -4,8 +4,57 @@
     background: linear-gradient(to bottom right, #530060,#E7098A ); 
     background-repeat: no-repeat;
 }
-img {
+.principalSection img {
     width: 50%;
     height: auto;
+    margin-top: 40vh;
+    margin-left: 25%;
 }
 /* pagina One */
+.backgrounImageOne {
+    background-image: url('../assets/images/backgroundStreet.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100vh;
+}
+.logoWhite {
+    height: auto;
+    width: 100px;
+    margin-left: 20vh;
+}
+.logoPink {
+    width: 100%;
+    margin-top:20vh; 
+}
+#signIn, #signUp {
+    border:1px solid white;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 20vh;
+    padding: 15px;
+}
+#signIn {
+    margin-left: 15vh;
+}
+/* Page Two */
+#before {
+    color: black;
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 6px 10px;
+    margin: auto 10px;
+}
+.dropdown {
+    display: inline;
+}
+.flag {
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+.characterInput {
+    display: inline;
+    margin-left: 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}

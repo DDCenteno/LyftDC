@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
 </head>
+
 <body>
-    <h1>HOLa</h1>
+    <div class="container">
+        <section class="row">
+            <div class="col-xs-12">
+                <a href="#" id="before">
+                    < </a>
+            </div>
+        </section>
+        <section class="row">
+            <div class="col-xs-12">
+                <h3 class="text-center">Sign Up</h3>
+                <p class="text-center">Join now for free ride credit</p>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
+                        Paises
+                        <span class="caret"></span>
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li id="mexicoFlag">
+                            <img src="../assets/images/mexico.png" alt="Mexico" class="flag"> Mexico </li>
+                        <li id="chileFlag">
+                            <img src="../assets/images/chile.jpg" alt="Chile" class="flag"> Chile </li>
+                        <li id="colombiaFlag">
+                            <img src="../assets/images/colombia.gif" alt="Colombia" class="flag"> Colombia </li>
+                        <li id="peruFlag">
+                            <img src="../assets/images/peru.png" alt="Perú" class="flag"> Perú </li>
+                    </ul>
+                </div>
+                <input type="text" class="characterInput" maxlength="10" placeholder="Phone number">
+                <p class="text-center">We'll send a text to verify you phone</p>
+                <button type="button" id="next" class="btn btn-block">NEXT</button>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- separacion-->
+    <script src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/appTwo.js"></script>
 </body>
+
 </html>
