@@ -4,7 +4,7 @@
     background: linear-gradient(to bottom right, #530060,#E7098A ); 
     background-repeat: no-repeat;
 }
-.principalSection img {
+.principalSection img:first-child {
     width: 50%;
     height: auto;
     margin-top: 40vh;
@@ -37,7 +37,7 @@
     margin-left: 15vh;
 }
 /* Page Two */
-#before {
+#before, #back {
     color: black;
     border-radius: 100px;
     border: 1px solid black;
@@ -57,4 +57,41 @@
     margin-left: 2px;
     padding: 5px;
     margin-bottom: 10px;
+}
+/* Page three */
+.textLab, .inputInsert {
+    display: inline;
+    margin-bottom: 10px;
+}
+.textLab {
+    margin-left: 20vh;
+    font-weight: bolder;
+}
+.inputInsert {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 40px;
+}
+.btncolor{
+    background:#E7098A; 
+    color: white;
+    margin-top: 50vh;
+}
+.btncolor:hover {
+    background-color: #530060;
+    color: white;
+}
+/* page four */
+#username, #lastname {
+    display: inline;
+    width: 140px;
+}
+.checkbox {
+    margin-left: 10%;
+}
+/* page five */
+.good {
+    margin-top: 10vh;
+    width: 100%;
 }
