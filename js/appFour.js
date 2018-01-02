@@ -4,7 +4,8 @@ $('document').ready(function () {
     var email = $('#email');
     var terms = $('#accept');
     var btn = $('#done');
-
+    var back = $('#back');
+    
     var validateName = false;
     var validateLastname = false;
     var validateChecked = false;
@@ -56,5 +57,8 @@ $('document').ready(function () {
     }
     btn.on('click', function() {
         window.location.href = 'pageFive.html';
+    });
+    back.on('click', function () {
+        window.location.href = 'pageThree.html';
     });
 });
